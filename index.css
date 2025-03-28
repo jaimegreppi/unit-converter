@@ -1,0 +1,77 @@
+:root {
+    color-scheme: light dark;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+}
+
+#header {
+    background-color: #6943FF;
+    height: 40%;
+    padding: 30px;
+}
+
+h1 {
+    margin: 30px;
+    color: #FFFFFF;
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+input {
+    width: 117px;
+    height: 83px;
+    margin: 25px;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    background-color: #6943FF;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 58px;
+    font-weight: bolder;
+}
+
+button {
+    margin: 15px;
+    width: 117px;
+    height: 42px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 1px 2px #000000;
+    background-color: #FFFFFF;
+    color: #3D3D3D;
+    font-size: 16px;
+}
+
+.request {
+    color: red;
+    font-weight: bold;
+    text-shadow: 0px 0px 1px #273549;
+}
+
+#main {
+    background-color: light-dark(#F4F4F4, #1F2937);
+    height: 60%;
+    padding: 20px;
+}
+
+.conversion-box {
+    background-color: light-dark(#FFFFFF, #273549);
+    margin: 20px;
+    padding: 20px;
+    width: 90%;
+}
+
+h2 {
+    color: light-dark(#5A537B, #CCC1FF);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.result {
+    color: light-dark (#353535, #FFFFFF);
+    font-size: 14px;
+}
