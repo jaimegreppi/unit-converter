@@ -15,7 +15,7 @@ body {
 }
 
 h1 {
-    margin: 30px;
+    margin: 30px auto;
     color: #FFFFFF;
     font-size: 28px;
     font-weight: bolder;
@@ -24,7 +24,7 @@ h1 {
 input {
     width: 117px;
     height: 83px;
-    margin: 25px;
+    margin: 25px auto;
     border: 2px solid #B295FF;
     border-radius: 5px;
     background-color: #6943FF;
@@ -60,7 +60,7 @@ button {
 
 .conversion-box {
     background-color: light-dark(#FFFFFF, #273549);
-    margin: 20px;
+    margin: 20px auto;
     padding: 20px;
     width: 90%;
 }
